@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                font-family: sans-serif;
+                background-image: url("poornima.jpg");
+                height: 100%;
+                width: 100%;
+             background-position: center;
+            }
+            .login{
+                position: absolute;
+               border: 3px solid blue;
+               color: black;
+               height:150px;
+               width:350px;
+               top: 20%;
+               left:35%;
+               padding-top: 10px;
+               padding-left: 10px;
+            }
+            button{
+                position: relative;
+                top: 80%;
+                left: 40%;
+                background-color: silver;
+                
+            }
+            select{
+                position: relative;
+                top: 80%;
+                left: 30%;
+                background-color: silver;
+            }
+            label{
+                color: green;
+                font-weight: bold;
+            }
+            input{
+                background-color: silver;
+            }
+        </style>
+    </head>
+    <body >
+        <h2 style="text-align: center;text-decoration: underline;">Student Attendance Management System</h2>
+        <div class="login"  >
+            <div>
+        <form action="" method="post" >
+            <label>User name:</label><input type="text" name="uname"><br><br>
+            <label>Password: </label><input type="password" name="pwd"><br><br>
+            <select name="type">
+                <option >
+                    select any values
+                </option>
+                <option value="Teachers">
+                    Teachers
+                </option>
+                <option value="students">
+                    Student
+                </option>
+                <option value="users">
+                    Admin
+                </option>
+            </select><br><br>
+            <button type="submit">Login</button>
+        </form>
+            </div>
+        </div>
+    </body>
+</html>
